@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="256" height="256" role="img" aria-label="Archlink">
+  <title>Archlink</title>
+  <!-- Palette is the panel's own: component blue, hook purple, from src/webview/theme.ts -->
+  <rect width="128" height="128" rx="28" fill="#161b22"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="27.25" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M 32 100 L 32 72 A 32 32 0 0 1 96 72 L 96 100" fill="none" stroke="#3b82f6" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="64" cy="40" r="9.5" fill="#a855f7" stroke="#161b22" stroke-width="3"/>
+  <circle cx="32" cy="100" r="9.5" fill="#3b82f6" stroke="#161b22" stroke-width="3"/>
+  <circle cx="96" cy="100" r="9.5" fill="#3b82f6" stroke="#161b22" stroke-width="3"/>
+</svg>

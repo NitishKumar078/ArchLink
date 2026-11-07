@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.cjs"
+      ],
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "Run Extension (open fixture)",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "${workspaceFolder}/targets/fixture-next"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.cjs"
+      ],
+      "preLaunchTask": "npm: build"
+    }
+  ]
+}
